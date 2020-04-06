@@ -35,7 +35,7 @@ async def on_message(message):
     if 'koliko' in message.content.lower() or 'kolk' in message.content.lower() or 'kok' in message.content.lower() or 'kolko' in message.content.lower():
         await message.channel.send('dva')
 
-    if 'zakaj' in message.content.lower() or 'zakva':
+    if 'zakaj' in message.content.lower() or 'zakva' in message.content.lower():
         await message.channel.send('zato')
 
     if 'lmao' in message.content.lower():
